@@ -1,0 +1,12 @@
+aws_region           = "us-east-2"
+project_name         = "school-cloud-project"
+vpc_cidr             = "10.20.0.0/16"
+external_subnet_cidr = "10.20.1.0/24"
+internal_subnet_cidr = "10.20.10.0/24"
+school_network_cidr  = "192.168.0.0/16"
+
+linux_instance_type   = "t3.medium"
+windows_instance_type = "c6i.xlarge"
+
+admin_cidr           = "203.0.113.20/32"
+school_vpn_peer_cidr  = "203.0.113.10/32"
